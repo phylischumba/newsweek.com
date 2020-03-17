@@ -48,3 +48,13 @@ font-size: 14px;
     width: 120px;
     height: 100px;
 }
+
+.olympics span {
+    font-weight: 500;
+}
+
+.more-stories img {
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+}
