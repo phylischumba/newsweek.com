@@ -7,3 +7,44 @@
     color: black;
     font-weight: bold;
 }
+
+.image-span1 {
+    position: relative;
+    top: 16rem;
+    width: 42px;
+}
+
+.image-span {
+    position: relative;
+    bottom: 2.5rem;
+    width: 100px;
+}
+
+.top p,
+.featured p {
+    font-size: 14px;
+    line-height: 1.5em;
+}
+.opinion p,
+.opinion span {
+font-size: 14px;
+}
+
+.featured span {
+    position: absolute;
+}
+
+.top img {
+    width: 420px;
+    height: 320px;
+}
+
+.opinion img {
+    height: 70px;
+    width: 100px;
+}
+
+.culture-travel img {
+    width: 120px;
+    height: 100px;
+}
