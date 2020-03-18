@@ -58,3 +58,106 @@ font-size: 14px;
     width: 100px;
     margin-right: 10px;
 }
+
+.vs span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 16px;
+}
+
+.debate {
+    padding-bottom: 32px;
+}
+
+.debate2 {
+    border-top: 3px solid blue;
+}
+
+.debate3 {
+    border-top: 4px double #e2e2e2;
+}
+
+.debate a {
+    line-height: 1em;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.latest-news a {
+    line-height: 1.5em;
+    font-size: 14px;
+    padding-top: 10px; 
+}
+
+.debate .image2 {
+    width: 70px;
+    float: right;
+    position: relative;
+    bottom: 15px;
+}
+
+.debate .bordertop {
+    border-top: solid 1px grey;
+    border-top-style: double;
+}
+
+.latest-news img {
+    height: 100px;
+}
+
+.sponsored-background {
+    background-image: url("https://d.newsweek.com/en/full/1502503/british-international-school-washington.jpg?w=500&h=333&f=b7ec8a7c624f39f2a35ba52b10e84c6e");
+    height: 230px;
+    width: 350px;    
+}
+
+.education {
+    width: 350px;
+}
+.education a {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.newsletter-signup {
+    width: 300px;
+    height: auto;
+}
+
+.newsletter span {
+    font-size: 18px;
+    line-height: 1.2em;
+}
+
+.newsletter .text-white {
+    height: 30px;
+
+}
+
+.hospitals {
+    width: 350px;
+    height: 230px;
+    background-image: url("https://d.newsweek.com/en/full/1572014/worlds-best-hospitals-2020.png?w=500&h=333&f=c871e2709e79f9ba030be976797f7aa2");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.best {
+    width: 350px;
+}
+
+.amplify {
+    width: 350px;
+    height: 230px;
+    background-image: url("https://d.newsweek.com/en/full/1568509/newsweek-amplify.png?w=500&h=333&f=98c0ebfc554597997a0de3bd6159812a");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.amplifier {
+    width: 350px;
+}
