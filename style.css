@@ -161,3 +161,72 @@ font-size: 14px;
 .amplifier {
     width: 350px;
 }
+
+.red-text {
+    color: red;
+    width: auto;
+    font-weight: bold;
+    position: absolute;
+    bottom: 33px;
+}
+
+.all-features {
+    margin-right: 18px;
+}
+
+.march-issue {
+    padding-bottom: 13px;
+}
+
+.image-height {
+    height: 400px;
+    width: 315px;
+}
+
+.image-height img {
+    height: 270px;
+}
+
+.image-height a {
+    font-size: 18px;
+    line-height: 0;
+}
+
+.slideshows {
+    height: 430px;
+}
+
+.slideshows span {
+    bottom:28px;
+}
+
+.slideshows a {
+    line-height: 0;
+    font-size: 18px;
+}
+
+.count-link {
+    width: 70px;
+    height: 52px;
+    display: block;
+    bottom: 52px;
+    font-size: 20px;
+    line-height: 58px;
+    text-indent: 5px;
+    text-align: center;
+    background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+    color: #e9212e;
+}
+
+.saga {
+    font-size: 20px;
+    position: relative;
+    bottom: 40px;
+}
+
+.united-states a {
+    margin-top: 30px;
+    color: black;
+    font-size: 20px;
+    line-height: 0em;
+}
