@@ -1,3 +1,16 @@
+@media (max-width: 768px) {
+
+}
+
+/* @media (min-width: 30em) and (max-width: 50em) {
+    
+} */
+
+body {
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow-x: hidden;
+}
 .first-nav {
     height: 60px;
 }
@@ -10,7 +23,7 @@
 
 .image-span1 {
     position: relative;
-    top: 16rem;
+    bottom: 40px;
     width: 42px;
 }
 
@@ -28,10 +41,6 @@
 .opinion p,
 .opinion span {
 font-size: 14px;
-}
-
-.featured span {
-    position: absolute;
 }
 
 .top img {
@@ -68,6 +77,11 @@ font-size: 14px;
 
 .debate {
     padding-bottom: 32px;
+}
+
+.position-sticky {
+top: 0;
+
 }
 
 .debate2 {
@@ -240,10 +254,41 @@ font-size: 14px;
     left: 100px;
 }
 
-.indepth {
-    height: 400px;
+.access {
+    width: 40%;
 }
 
-.access {
-    width: 30%;
+.signup {
+    width: 100%;
+}
+
+.start {
+    width: 200px;
+}
+
+#background {
+    width: 200px;
+    height: 400px;
+    background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.footer1 a {
+    font-size: 35px;
+}
+
+.footer1 p {
+    font-size: 12px;
+}
+
+footer i {
+    font-size: 25px;
+}
+
+.edition a, 
+.edition span {
+    font-size: 14px;
 }
