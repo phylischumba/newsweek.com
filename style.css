@@ -1,57 +1,61 @@
 @media (max-width: 1105px) {
-    
-   .large-screen-nav {
-       display: none;
-   }
+  .large-screen-nav {
+    display: none;
+  }
 
-   .hidden-nav {
-        display: inherit !important;
-       }
+  .hidden-nav {
+    display: inherit !important;
+  }
 }
-
-
 
 body {
-    margin-left: 20px;
-    margin-right: 20px;
-    overflow-x: hidden;
+  margin-left: 20px;
+  margin-right: 20px;
+  overflow-x: hidden;
 }
+
 .first-nav {
-    height: 60px;
+  height: 60px;
 }
 
 .hidden-nav {
-    display: none;
+  display: none;
+}
+
+footer i {
+  font-size: 25px;
 }
 
 .right-nav i {
-    font-size: 25px;
+  font-size: 25px;
 }
+
 .second-nav a {
-    color: black;
-    font-weight: bold;
+  color: black;
+  font-weight: bold;
 }
 
 .image-span1 {
-    position: relative;
-    bottom: 40px;
-    width: 42px;
+  position: relative;
+  bottom: 40px;
+  width: 42px;
 }
 
 .image-span {
-    position: relative;
-    bottom: 2.5rem;
-    width: 100px;
+  position: relative;
+  bottom: 2.5rem;
+  width: 100px;
 }
 
 .top p,
 .featured p {
-    font-size: 14px;
-    line-height: 1.5em;
+  font-size: 14px;
+  line-height: 1.5em;
 }
+
 .opinion p,
 .opinion span {
-font-size: 14px;
+  font-size: 14px;
 }
 
 /* .top img {
@@ -60,250 +64,243 @@ font-size: 14px;
 } */
 
 .culture-travel img {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
 
 .olympics span {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .more-stories img {
-    height: 100px;
-    width: 100px;
-    margin-right: 10px;
+  height: 100px;
+  width: 100px;
+  margin-right: 10px;
 }
 
 .vs span {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    margin-left: 16px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-left: 16px;
 }
 
 .debate {
-    padding-bottom: 32px;
+  padding-bottom: 32px;
 }
 
 .position-sticky {
-top: 0;
-
+  top: 0;
 }
 
 .debate2 {
-    border-top: 3px solid blue;
+  border-top: 3px solid blue;
 }
 
 .debate3 {
-    border-top: 4px double #e2e2e2;
+  border-top: 4px double #e2e2e2;
 }
 
 .debate a {
-    line-height: 1em;
-    font-size: 14px;
-    padding-top: 10px;
+  line-height: 1em;
+  font-size: 14px;
+  padding-top: 10px;
 }
 
 .latest-news a {
-    line-height: 1.5em;
-    font-size: 14px;
-    padding-top: 10px; 
+  line-height: 1.5em;
+  font-size: 14px;
+  padding-top: 10px;
 }
 
 .debate1-img {
-    width: 100px;
-    height: 80px;
+  width: 100px;
+  height: 80px;
 }
 
 .debate .image2 {
-    width: 70px;
-    float: right;
-    position: relative;
-    bottom: 15px;
+  width: 70px;
+  float: right;
+  position: relative;
+  bottom: 15px;
 }
 
 .debate .bordertop {
-    border-top: solid 1px grey;
-    border-top-style: double;
+  border-top: solid 1px grey;
+  border-top-style: double;
 }
 
 .latest-news img {
-    height: 100px;
+  height: 100px;
 }
 
 .sponsored-background {
-    background-image: url("https://d.newsweek.com/en/full/1502503/british-international-school-washington.jpg?w=500&h=333&f=b7ec8a7c624f39f2a35ba52b10e84c6e");
-    height: 230px;
-    width: 350px;    
+  background-image: url("https://d.newsweek.com/en/full/1502503/british-international-school-washington.jpg?w=500&h=333&f=b7ec8a7c624f39f2a35ba52b10e84c6e");
+  height: 230px;
+  width: 350px;
 }
 
 .education {
-    width: 350px;
+  width: 350px;
 }
+
 .education a {
-    color: black;
-    font-size: 20px;
-    font-weight: bold;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .newsletter-signup {
-    width: 300px;
-    height: auto;
+  width: 300px;
+  height: auto;
 }
 
 .newsletter span {
-    font-size: 18px;
-    line-height: 1.2em;
+  font-size: 18px;
+  line-height: 1.2em;
 }
 
 .newsletter .text-white {
-    height: 30px;
-
+  height: 30px;
 }
 
 .hospitals {
-    width: 350px;
-    height: 230px;
-    background-image: url("https://d.newsweek.com/en/full/1572014/worlds-best-hospitals-2020.png?w=500&h=333&f=c871e2709e79f9ba030be976797f7aa2");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  width: 350px;
+  height: 230px;
+  background-image: url("https://d.newsweek.com/en/full/1572014/worlds-best-hospitals-2020.png?w=500&h=333&f=c871e2709e79f9ba030be976797f7aa2");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .best {
-    width: 350px;
+  width: 350px;
 }
 
 .amplify {
-    width: 100%;
-    height: 230px;
-    background-image: url("https://d.newsweek.com/en/full/1568509/newsweek-amplify.png?w=500&h=333&f=98c0ebfc554597997a0de3bd6159812a");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  width: 100%;
+  height: 230px;
+  background-image: url("https://d.newsweek.com/en/full/1568509/newsweek-amplify.png?w=500&h=333&f=98c0ebfc554597997a0de3bd6159812a");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .amplifier {
-    width: 100%;
+  width: 100%;
 }
 
 .red-text {
-    color: red;
-    width: auto;
-    font-weight: bold;
-    position: relative;
-    bottom: 40px;
+  color: red;
+  width: auto;
+  font-weight: bold;
+  position: relative;
+  bottom: 40px;
 }
 
 .all-features {
-    margin-right: 5px;
-    position: relative;
-    bottom: 50px;
+  margin-right: 5px;
+  position: relative;
+  bottom: 50px;
 }
 
 .march-issue {
-    padding-bottom: 13px;
+  padding-bottom: 13px;
 }
 
-
 .image-height a {
-    font-size: 18px;
-    line-height: 0;
+  font-size: 18px;
+  line-height: 0;
 }
 
 .slideshows {
-    height: 430px;
+  height: 430px;
 }
 
 .slideshows span {
-    bottom:28px;
+  bottom: 28px;
 }
 
 .slideshows a {
-    line-height: 0;
-    font-size: 18px;
+  line-height: 0;
+  font-size: 18px;
 }
 
 .count-link {
-    width: 70px;
-    height: 52px;
-    display: block;
-    bottom: 52px;
-    font-size: 20px;
-    line-height: 58px;
-    text-indent: 5px;
-    text-align: center;
-    background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
-    color: #e9212e;
+  width: 70px;
+  height: 52px;
+  display: block;
+  bottom: 52px;
+  font-size: 20px;
+  line-height: 58px;
+  text-indent: 5px;
+  text-align: center;
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+  color: #e9212e;
 }
 
 .saga {
-    font-size: 20px;
-    position: relative;
-    bottom: 40px;
+  font-size: 20px;
+  position: relative;
+  bottom: 40px;
 }
 
 .united-states a {
-    margin-top: 30px;
-    color: black;
-    font-size: 20px;
-    line-height: 0em;
+  margin-top: 30px;
+  color: black;
+  font-size: 20px;
+  line-height: 0em;
 }
 
 .argentina {
-    width: 95px;
+  width: 95px;
 }
 
 .subscribe-images2 {
-    bottom: 200px;
-    left: 70px;
+  bottom: 200px;
+  left: 70px;
 }
 
 .access {
-    width: 40%;
+  width: 40%;
 }
 
 .signup {
-    width: 100%;
+  width: 100%;
 }
 
 .start {
-    width: 200px;
+  width: 200px;
 }
 
 #background {
-    width: 200px;
-    height: 400px;
-    background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  
+  width: 200px;
+  height: 400px;
+  background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .footer1 a {
-    font-size: 35px;
+  font-size: 35px;
 }
 
 .footer1 p {
-    font-size: 12px;
-}
-
-footer i {
-    font-size: 25px;
+  font-size: 12px;
 }
 
 .span-icon {
-    width: 50px;
-    height: 50px;
-    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATYAAACjCAMAAAA3vsLfAAAAkFBMVEX4+PjtIyT////sAAD5///tHh/4+/vuQkP10dHsAQX4u7vtEBH/+vr84+P83+D3sbH72dr0kJDwW1zzg4T2zMztGRrtDQ/vV1f0s7PvUFH47+/0vb3wZWXuLzDynJz35ubwcnLtKCnzqan48vL1xcXzpaXwYWLze3vuOz31l5jvSkv0iInvQELuMzTzgIDxdnbmAlY3AAAEmklEQVR4nO3dbXuaMBiGYfICFlGraIJaq7XVdete+v//3XTaFiRhkAJuD/f1sYUPnAcIRk08DyGEEEIIIYQQQgghhBBCCCGEEPpnCwJZQ0Fw7eNosYOYN+6vp6uk94mS1XTdH3sHu2sfTysFcrNPtAi1Uv6nUkqHQif7TQfgArmLhVastpQW8Y46nJz1RI1mZznRm8lrH1mDBd6D8OtGO+aLB4/sCSdH26gJtGPRdkT0hJOzZk61U76geaHKnWgO7RhJN3nTsNrB7YacW7BUDV6hp3y1pHZfkEntzx35VELsdJOPjV+ix8QjLbdlY08e2aLltY+0zuREt8OmJ6ROt5ZOtsPpdu0jrTE5D9tiC+d0Tje5aPzh4y1/QYdt2cpt9JQgc1MI7lq7Rg9X6R2VR145ae2OcLgnkLmXyi8tvEN4S63IsN2b7gh+ZEiX3vJcbnv/ngpbYLojRBM+yDc0XM5qatryFI9zboLIa1uwsbCZMgzKRVPjlqfi3PUviAyDBOMKbHyS27gq27iLbHxxCdFVNuO4rpVtcDmeWZXtppNs/HJzsJVi4+vs9mArx8ZXmccQsJVkG2zTL29gK8nGR+k9wFaWjd+mdgFbaTb++vHhA9hSqefxzbGBxePr+8ubejBtufzzt3F+3Jg2G1PiT0MLW+qN7HnLceb/89Mf8yMmxNnOB2lj43cXe12w9W0jxh1n49+zMGArx8ZfMi/3YCvJtsx8lA+2kmx8lt4RbGXZ+LfUnmArzZZ+mgVbebYBe38wA1t5Nv4xoA62Cmx8/7Yz2KqwvY9Zgq0SGz9/pg+2amxDATYHNj4XYHNg488abA5svKfA5sC20WArYpsvzW47AbYCtseF5XybXA6Kgy3VrfhmcVuArYAtFDMz2xPYitj8yPbylvUEW4aNqRfLZZoNbFk2Fn4Hm1edjYk7sDmwMbEBmwOb/xVsDmxMv4LNgY2JW7A5sDExApsDm7+1ffENbAVsLPoCNgc2JtZgc2A7HD/YHNj86Als1dmYso1Zgq2IjYUFX8IHm5Wt6E092OxsTFvf1IOtgE39AJsDG9PPYHNgY2IOtnTGHw895n8SZPncvqNsb9OnXGic/tZLuflbsGXY7PUyv15egc2BjYk92BzYjG/qwfZXNt/Pj1mC7a9sTCUdZKs2x5GJjYnc1nY2KnMc1cDGxK5zbFXmb7OxMX3xRSQ7G5H526yzBVZiU72ybETUzHNTVmVj+lcpNv8nlbkp5cowE2plNib6ZdgIzYRqmndX/RqObA1/GCfTFrOPXYZ7y1y+dObdNc/yfB4BMWaZgjy9iW0lATqzPLc7p/jTtY+2tlqcwV7FVK5RrJfgHFbncAlrwbj11NIc9orODeEY1rlyS+bmvG4gcquqYQ0/x7BipFvNrupKeF1XrIbrlBzeN7f28v2QqNpxpe/Xplb6fqa70rd3vDE0s648xZtBukDuYqFrlFNaxDtJ+VQ7FcjNPtYi1Er5n0opHQod7zcdQDsWSOmN+uvpKnnpOfeSrKbr/siTHUE7FRzsPl/QJTKEEEIIIYQQQgghhBBCCCGEEEL/Xb8BmIR+xlRQMXEAAAAASUVORK5CYII=");
-    background-position: center;
-    background-repeat: no-repeat;
-    color: #f72210;
-    background-size: cover; 
+  width: 50px;
+  height: 50px;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATYAAACjCAMAAAA3vsLfAAAAkFBMVEX4+PjtIyT////sAAD5///tHh/4+/vuQkP10dHsAQX4u7vtEBH/+vr84+P83+D3sbH72dr0kJDwW1zzg4T2zMztGRrtDQ/vV1f0s7PvUFH47+/0vb3wZWXuLzDynJz35ubwcnLtKCnzqan48vL1xcXzpaXwYWLze3vuOz31l5jvSkv0iInvQELuMzTzgIDxdnbmAlY3AAAEmklEQVR4nO3dbXuaMBiGYfICFlGraIJaq7XVdete+v//3XTaFiRhkAJuD/f1sYUPnAcIRk08DyGEEEIIIYQQQgghhBBCCCGEEPpnCwJZQ0Fw7eNosYOYN+6vp6uk94mS1XTdH3sHu2sfTysFcrNPtAi1Uv6nUkqHQif7TQfgArmLhVastpQW8Y46nJz1RI1mZznRm8lrH1mDBd6D8OtGO+aLB4/sCSdH26gJtGPRdkT0hJOzZk61U76geaHKnWgO7RhJN3nTsNrB7YacW7BUDV6hp3y1pHZfkEntzx35VELsdJOPjV+ix8QjLbdlY08e2aLltY+0zuREt8OmJ6ROt5ZOtsPpdu0jrTE5D9tiC+d0Tje5aPzh4y1/QYdt2cpt9JQgc1MI7lq7Rg9X6R2VR145ae2OcLgnkLmXyi8tvEN4S63IsN2b7gh+ZEiX3vJcbnv/ngpbYLojRBM+yDc0XM5qatryFI9zboLIa1uwsbCZMgzKRVPjlqfi3PUviAyDBOMKbHyS27gq27iLbHxxCdFVNuO4rpVtcDmeWZXtppNs/HJzsJVi4+vs9mArx8ZXmccQsJVkG2zTL29gK8nGR+k9wFaWjd+mdgFbaTb++vHhA9hSqefxzbGBxePr+8ubejBtufzzt3F+3Jg2G1PiT0MLW+qN7HnLceb/89Mf8yMmxNnOB2lj43cXe12w9W0jxh1n49+zMGArx8ZfMi/3YCvJtsx8lA+2kmx8lt4RbGXZ+LfUnmArzZZ+mgVbebYBe38wA1t5Nv4xoA62Cmx8/7Yz2KqwvY9Zgq0SGz9/pg+2amxDATYHNj4XYHNg488abA5svKfA5sC20WArYpsvzW47AbYCtseF5XybXA6Kgy3VrfhmcVuArYAtFDMz2xPYitj8yPbylvUEW4aNqRfLZZoNbFk2Fn4Hm1edjYk7sDmwMbEBmwOb/xVsDmxMv4LNgY2JW7A5sDExApsDm7+1ffENbAVsLPoCNgc2JtZgc2A7HD/YHNj86Als1dmYso1Zgq2IjYUFX8IHm5Wt6E092OxsTFvf1IOtgE39AJsDG9PPYHNgY2IOtnTGHw895n8SZPncvqNsb9OnXGic/tZLuflbsGXY7PUyv15egc2BjYk92BzYjG/qwfZXNt/Pj1mC7a9sTCUdZKs2x5GJjYnc1nY2KnMc1cDGxK5zbFXmb7OxMX3xRSQ7G5H526yzBVZiU72ybETUzHNTVmVj+lcpNv8nlbkp5cowE2plNib6ZdgIzYRqmndX/RqObA1/GCfTFrOPXYZ7y1y+dObdNc/yfB4BMWaZgjy9iW0lATqzPLc7p/jTtY+2tlqcwV7FVK5RrJfgHFbncAlrwbj11NIc9orODeEY1rlyS+bmvG4gcquqYQ0/x7BipFvNrupKeF1XrIbrlBzeN7f28v2QqNpxpe/Xplb6fqa70rd3vDE0s648xZtBukDuYqFrlFNaxDtJ+VQ7FcjNPtYi1Er5n0opHQod7zcdQDsWSOmN+uvpKnnpOfeSrKbr/siTHUE7FRzsPl/QJTKEEEIIIYQQQgghhBBCCCGEEEL/Xb8BmIR+xlRQMXEAAAAASUVORK5CYII=");
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #f72210;
+  background-size: cover;
 }
 
-.edition a, 
+.edition a,
 .edition span {
-    font-size: 14px;
+  font-size: 14px;
 }
