@@ -1,10 +1,15 @@
-@media (max-width: 768px) {
+@media (max-width: 1105px) {
+    
+   .large-screen-nav {
+       display: none;
+   }
 
+   .hidden-nav {
+        display: inherit !important;
+       }
 }
 
-/* @media (min-width: 30em) and (max-width: 50em) {
-    
-} */
+
 
 body {
     margin-left: 20px;
@@ -15,7 +20,13 @@ body {
     height: 60px;
 }
 
+.hidden-nav {
+    display: none;
+}
 
+.right-nav i {
+    font-size: 25px;
+}
 .second-nav a {
     color: black;
     font-weight: bold;
@@ -43,18 +54,13 @@ body {
 font-size: 14px;
 }
 
-.top img {
+/* .top img {
     width: 420px;
     height: 320px;
-}
-
-.opinion img {
-    height: 70px;
-    width: 100px;
-}
+} */
 
 .culture-travel img {
-    width: 120px;
+    width: 100px;
     height: 100px;
 }
 
@@ -102,6 +108,11 @@ top: 0;
     line-height: 1.5em;
     font-size: 14px;
     padding-top: 10px; 
+}
+
+.debate1-img {
+    width: 100px;
+    height: 80px;
 }
 
 .debate .image2 {
@@ -164,7 +175,7 @@ top: 0;
 }
 
 .amplify {
-    width: 350px;
+    width: 100%;
     height: 230px;
     background-image: url("https://d.newsweek.com/en/full/1568509/newsweek-amplify.png?w=500&h=333&f=98c0ebfc554597997a0de3bd6159812a");
     background-position: center;
@@ -173,33 +184,27 @@ top: 0;
 }
 
 .amplifier {
-    width: 350px;
+    width: 100%;
 }
 
 .red-text {
     color: red;
     width: auto;
     font-weight: bold;
-    position: absolute;
-    bottom: 33px;
+    position: relative;
+    bottom: 40px;
 }
 
 .all-features {
-    margin-right: 18px;
+    margin-right: 5px;
+    position: relative;
+    bottom: 50px;
 }
 
 .march-issue {
     padding-bottom: 13px;
 }
 
-.image-height {
-    height: 400px;
-    width: 315px;
-}
-
-.image-height img {
-    height: 270px;
-}
 
 .image-height a {
     font-size: 18px;
@@ -251,7 +256,7 @@ top: 0;
 
 .subscribe-images2 {
     bottom: 200px;
-    left: 100px;
+    left: 70px;
 }
 
 .access {
@@ -286,6 +291,16 @@ top: 0;
 
 footer i {
     font-size: 25px;
+}
+
+.span-icon {
+    width: 50px;
+    height: 50px;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATYAAACjCAMAAAA3vsLfAAAAkFBMVEX4+PjtIyT////sAAD5///tHh/4+/vuQkP10dHsAQX4u7vtEBH/+vr84+P83+D3sbH72dr0kJDwW1zzg4T2zMztGRrtDQ/vV1f0s7PvUFH47+/0vb3wZWXuLzDynJz35ubwcnLtKCnzqan48vL1xcXzpaXwYWLze3vuOz31l5jvSkv0iInvQELuMzTzgIDxdnbmAlY3AAAEmklEQVR4nO3dbXuaMBiGYfICFlGraIJaq7XVdete+v//3XTaFiRhkAJuD/f1sYUPnAcIRk08DyGEEEIIIYQQQgghhBBCCCGEEPpnCwJZQ0Fw7eNosYOYN+6vp6uk94mS1XTdH3sHu2sfTysFcrNPtAi1Uv6nUkqHQif7TQfgArmLhVastpQW8Y46nJz1RI1mZznRm8lrH1mDBd6D8OtGO+aLB4/sCSdH26gJtGPRdkT0hJOzZk61U76geaHKnWgO7RhJN3nTsNrB7YacW7BUDV6hp3y1pHZfkEntzx35VELsdJOPjV+ix8QjLbdlY08e2aLltY+0zuREt8OmJ6ROt5ZOtsPpdu0jrTE5D9tiC+d0Tje5aPzh4y1/QYdt2cpt9JQgc1MI7lq7Rg9X6R2VR145ae2OcLgnkLmXyi8tvEN4S63IsN2b7gh+ZEiX3vJcbnv/ngpbYLojRBM+yDc0XM5qatryFI9zboLIa1uwsbCZMgzKRVPjlqfi3PUviAyDBOMKbHyS27gq27iLbHxxCdFVNuO4rpVtcDmeWZXtppNs/HJzsJVi4+vs9mArx8ZXmccQsJVkG2zTL29gK8nGR+k9wFaWjd+mdgFbaTb++vHhA9hSqefxzbGBxePr+8ubejBtufzzt3F+3Jg2G1PiT0MLW+qN7HnLceb/89Mf8yMmxNnOB2lj43cXe12w9W0jxh1n49+zMGArx8ZfMi/3YCvJtsx8lA+2kmx8lt4RbGXZ+LfUnmArzZZ+mgVbebYBe38wA1t5Nv4xoA62Cmx8/7Yz2KqwvY9Zgq0SGz9/pg+2amxDATYHNj4XYHNg488abA5svKfA5sC20WArYpsvzW47AbYCtseF5XybXA6Kgy3VrfhmcVuArYAtFDMz2xPYitj8yPbylvUEW4aNqRfLZZoNbFk2Fn4Hm1edjYk7sDmwMbEBmwOb/xVsDmxMv4LNgY2JW7A5sDExApsDm7+1ffENbAVsLPoCNgc2JtZgc2A7HD/YHNj86Als1dmYso1Zgq2IjYUFX8IHm5Wt6E092OxsTFvf1IOtgE39AJsDG9PPYHNgY2IOtnTGHw895n8SZPncvqNsb9OnXGic/tZLuflbsGXY7PUyv15egc2BjYk92BzYjG/qwfZXNt/Pj1mC7a9sTCUdZKs2x5GJjYnc1nY2KnMc1cDGxK5zbFXmb7OxMX3xRSQ7G5H526yzBVZiU72ybETUzHNTVmVj+lcpNv8nlbkp5cowE2plNib6ZdgIzYRqmndX/RqObA1/GCfTFrOPXYZ7y1y+dObdNc/yfB4BMWaZgjy9iW0lATqzPLc7p/jTtY+2tlqcwV7FVK5RrJfgHFbncAlrwbj11NIc9orODeEY1rlyS+bmvG4gcquqYQ0/x7BipFvNrupKeF1XrIbrlBzeN7f28v2QqNpxpe/Xplb6fqa70rd3vDE0s648xZtBukDuYqFrlFNaxDtJ+VQ7FcjNPtYi1Er5n0opHQod7zcdQDsWSOmN+uvpKnnpOfeSrKbr/siTHUE7FRzsPl/QJTKEEEIIIYQQQgghhBBCCCGEEEL/Xb8BmIR+xlRQMXEAAAAASUVORK5CYII=");
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #f72210;
+    background-size: cover; 
 }
 
 .edition a, 
