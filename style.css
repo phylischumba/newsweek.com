@@ -1,4 +1,6 @@
 @media (max-width: 1105px) {
+ 
+
   .large-screen-nav {
     display: none;
   }
@@ -6,24 +8,132 @@
   .hidden-nav {
     display: inherit !important;
   }
+
+  .indepth {
+   display: flex;
+   justify-content: stretch;
+  }
+
+  .subscribe-images {
+    margin-right: 0;
+    padding-right: 0;
+  }
 }
 
-body {
+@media (min-width: 992px) and (max-width: 1199px){
+  img.top-story-image {
+    /* height: 270px; */
+  }
+}
+@media (max-width: 992px) {
+  .centerd-insight{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+  div.image-height span {
+    font-size: 13px;
+    margin-left: 4px;
+  }
+
+  div.image-height a {
+    font-size: 14px;
+  }
+
+  .united-states-div img {
+    height: 80px;
+  }
+
+  .united-states-div a {
+    font-size: 13px;
+  }
+
+}
+
+@media (max-width: 767px){
+  .indepth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .subscribe-buttons {
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .subscribe-images2 {
+    top: 20px;
+    right: -300px;
+  }
+
+  .signup {
+    width: 100%;
+   flex-direction: column;
+
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-right: 20%;
+  }
+
+  #background {
+    width: 400px;
+    height: 200px;
+    background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+body { 
+  overflow-x: hidden;
+  background-color: #f4f5f6;
   margin-left: 20px;
   margin-right: 20px;
-  overflow-x: hidden;
 }
 
-.first-nav {
-  height: 60px;
+main {
+  background-color: #ffffff;
+    padding-top: 10px;
+    margin-top: 2px;
+}
+
+.large-screen-nav {
+  background-color: #ff0500;
+  /* height: 100px; */
+  
+}
+
+.newsweek-logo {
+  width: 30%;
+  
 }
 
 .hidden-nav {
   display: none;
+  background-color: #ff0500;
+  overflow: hidden;
+}
+
+.nav-links a {
+  color: black;
 }
 
 footer i {
   font-size: 25px;
+}
+
+.left-nav {
+  width: 50%;
 }
 
 .right-nav i {
@@ -53,19 +163,33 @@ footer i {
   line-height: 1.5em;
 }
 
+.opinion img {
+  width: 60px;
+  height: 60px;
+}
+
 .opinion p,
 .opinion span {
   font-size: 14px;
 }
 
-/* .top img {
-    width: 420px;
-    height: 320px;
-} */
+.small-logo {
+  width: 30px;
+}
+
+.editors-button {
+  background-color: #ff0500;
+}
+
+.slideshows span,
+.sub-headings {
+  color: #f72210;
+}
 
 .culture-travel img {
-  width: 100px;
-  height: 100px;
+  /* width: 100px;*/
+  /* height: 100px;  */
+
 }
 
 .olympics span {
@@ -110,16 +234,15 @@ footer i {
 .latest-news a {
   line-height: 1.5em;
   font-size: 14px;
-  padding-top: 10px;
 }
 
 .debate1-img {
-  width: 100px;
-  height: 80px;
+  width: 60px;
+  height: 70px;
 }
 
 .debate .image2 {
-  width: 70px;
+  width: 60px;
   float: right;
   position: relative;
   bottom: 15px;
@@ -129,19 +252,22 @@ footer i {
   border-top: solid 1px grey;
   border-top-style: double;
 }
-
+/* 
 .latest-news img {
-  height: 100px;
-}
+  height:;
+} */
 
 .sponsored-background {
   background-image: url("https://d.newsweek.com/en/full/1502503/british-international-school-washington.jpg?w=500&h=333&f=b7ec8a7c624f39f2a35ba52b10e84c6e");
   height: 230px;
-  width: 350px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
 }
 
 .education {
-  width: 350px;
+  width: 300px;
 }
 
 .education a {
@@ -236,13 +362,17 @@ footer i {
   text-indent: 5px;
   text-align: center;
   background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
-  color: #e9212e;
+  color: #f72210;
 }
 
 .saga {
   font-size: 20px;
   position: relative;
   bottom: 40px;
+}
+
+.top-story-image {
+  height: auto;
 }
 
 .united-states a {
@@ -303,4 +433,8 @@ footer i {
 .edition a,
 .edition span {
   font-size: 14px;
+}
+
+.footer {
+  background-color: #ffffff;
 }
