@@ -1,6 +1,4 @@
 @media (max-width: 1105px) {
- 
-
   .large-screen-nav {
     display: none;
   }
@@ -8,25 +6,10 @@
   .hidden-nav {
     display: inherit !important;
   }
-
-  .indepth {
-   display: flex;
-   justify-content: stretch;
-  }
-
-  .subscribe-images {
-    margin-right: 0;
-    padding-right: 0;
-  }
 }
 
-@media (min-width: 992px) and (max-width: 1199px){
-  img.top-story-image {
-    /* height: 270px; */
-  }
-}
 @media (max-width: 992px) {
-  .centerd-insight{
+  .centerd-insight {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,10 +17,14 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 992px){
+@media (min-width: 768px) and (max-width: 992px) {
   div.image-height span {
     font-size: 13px;
     margin-left: 4px;
+  }
+
+  .united-states-div a {
+    font-size: 13px;
   }
 
   div.image-height a {
@@ -47,15 +34,10 @@
   .united-states-div img {
     height: 80px;
   }
-
-  .united-states-div a {
-    font-size: 13px;
-  }
-
 }
 
-@media (max-width: 767px){
-  .indepth {
+@media (max-width: 767px) {
+  div.indepth {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -77,24 +59,33 @@
 
   .signup {
     width: 100%;
-   flex-direction: column;
-
+    flex-direction: column;
     font-size: 20px;
     padding-bottom: 10px;
     margin-right: 20%;
   }
 
-  #background {
-    width: 400px;
-    height: 200px;
-    background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  div.signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .signup-image {
+    width: auto !important;
+    height: auto;
+  }
+
+  div.start {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 5px !important;
   }
 }
 
-body { 
+body {
   overflow-x: hidden;
   background-color: #f4f5f6;
   margin-left: 20px;
@@ -102,20 +93,17 @@ body {
 }
 
 main {
-  background-color: #ffffff;
-    padding-top: 10px;
-    margin-top: 2px;
+  background-color: #fff;
+  padding-top: 10px;
+  margin-top: 2px;
 }
 
 .large-screen-nav {
   background-color: #ff0500;
-  /* height: 100px; */
-  
 }
 
 .newsweek-logo {
   width: 30%;
-  
 }
 
 .hidden-nav {
@@ -157,10 +145,19 @@ footer i {
   width: 100px;
 }
 
+.section-heading {
+  display: none;
+}
+
 .top p,
 .featured p {
   font-size: 14px;
   line-height: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.featured a {
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .opinion img {
@@ -170,7 +167,9 @@ footer i {
 
 .opinion p,
 .opinion span {
-  font-size: 14px;
+  line-height: 1.2em;
+  font-size: 16px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .small-logo {
@@ -186,14 +185,13 @@ footer i {
   color: #f72210;
 }
 
-.culture-travel img {
-  /* width: 100px;*/
-  /* height: 100px;  */
-
-}
-
 .olympics span {
   font-weight: 500;
+  font-family: serif;
+}
+
+.olympics p {
+  font-family: Helvetica, sans-serif;
 }
 
 .more-stories img {
@@ -207,6 +205,10 @@ footer i {
   width: 30px;
   height: 30px;
   margin-left: 16px;
+}
+
+.debate-div {
+  border-top: 4px solid #ff0500;
 }
 
 .debate {
@@ -252,22 +254,23 @@ footer i {
   border-top: solid 1px grey;
   border-top-style: double;
 }
-/* 
+
+/*
 .latest-news img {
   height:;
 } */
 
 .sponsored-background {
-  background-image: url("https://d.newsweek.com/en/full/1502503/british-international-school-washington.jpg?w=500&h=333&f=b7ec8a7c624f39f2a35ba52b10e84c6e");
-  height: 230px;
-  background-position: center;
+  background-image: url("img/sponsored-insight.jpg");
+  height: 200px;
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 300px;
+  width: 280px;
 }
 
 .education {
-  width: 300px;
+  width: 280px;
 }
 
 .education a {
@@ -281,6 +284,11 @@ footer i {
   height: auto;
 }
 
+.signup-image {
+  width: 200px;
+  height: 300px;
+}
+
 .newsletter span {
   font-size: 18px;
   line-height: 1.2em;
@@ -291,8 +299,8 @@ footer i {
 }
 
 .hospitals {
-  width: 350px;
-  height: 230px;
+  width: 280px;
+  height: 200px;
   background-image: url("https://d.newsweek.com/en/full/1572014/worlds-best-hospitals-2020.png?w=500&h=333&f=c871e2709e79f9ba030be976797f7aa2");
   background-size: cover;
   background-position: center;
@@ -300,7 +308,7 @@ footer i {
 }
 
 .best {
-  width: 350px;
+  width: 280px;
 }
 
 .amplify {
@@ -332,6 +340,13 @@ footer i {
 
 .march-issue {
   padding-bottom: 13px;
+}
+
+.united-states a {
+  margin-top: 30px;
+  color: black;
+  font-size: 20px;
+  line-height: 0;
 }
 
 .image-height a {
@@ -375,20 +390,19 @@ footer i {
   height: auto;
 }
 
-.united-states a {
-  margin-top: 30px;
-  color: black;
-  font-size: 20px;
-  line-height: 0;
-}
-
 .argentina {
   width: 95px;
 }
 
+.subscribe-buttons {
+  margin-top: 30px;
+  font-size: 15px;
+  margin-left: 70px;
+}
+
 .subscribe-images2 {
-  bottom: 200px;
-  left: 70px;
+  top: 20px;
+  left: 50px;
 }
 
 .access {
@@ -400,16 +414,7 @@ footer i {
 }
 
 .start {
-  width: 200px;
-}
-
-#background {
-  width: 200px;
-  height: 400px;
-  background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  margin-left: 10px;
 }
 
 .footer1 a {
@@ -436,5 +441,5 @@ footer i {
 }
 
 .footer {
-  background-color: #ffffff;
+  background-color: #fff;
 }

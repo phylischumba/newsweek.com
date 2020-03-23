@@ -4,7 +4,7 @@
 
 > Bootstrap Responsive Design Project
 
-> ![screenshot](11.png)
+> ![screenshot](img/11.png)
 
 ## Built With
 
