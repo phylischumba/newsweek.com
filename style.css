@@ -45,17 +45,19 @@
     text-align: center;
   }
 
- .top-footer {
+  .top-footer {
     flex-direction: column;
-
   }
+
   .footer1 {
     flex-direction: column;
   }
+
   .footer1 p {
     align-self: flex-start !important;
     margin-left: 20px;
   }
+
   .footer-icons {
     margin-left: 20px;
   }
@@ -153,7 +155,7 @@ body {
   margin-right: 20px;
 }
 
-main, 
+main,
 footer {
   background-color: #fff;
   padding-top: 10px;
@@ -169,7 +171,6 @@ footer {
   text-align: center;
   width: 30%;
   margin-top: 7px;
-
 }
 
 svg {
