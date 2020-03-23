@@ -44,6 +44,26 @@
     height: auto;
     text-align: center;
   }
+
+ .top-footer {
+    flex-direction: column;
+
+  }
+  .footer1 {
+    flex-direction: column;
+  }
+  .footer1 p {
+    align-self: flex-start !important;
+    margin-left: 20px;
+  }
+  .footer-icons {
+    margin-left: 20px;
+  }
+
+  .edition a {
+    border-right: none !important;
+    margin-bottom: 5px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -133,7 +153,8 @@ body {
   margin-right: 20px;
 }
 
-main {
+main, 
+footer {
   background-color: #fff;
   padding-top: 10px;
   margin-top: 2px;
@@ -141,6 +162,20 @@ main {
 
 .large-screen-nav {
   background-color: #ff0500;
+}
+
+.center-nav {
+  justify-content: center;
+  text-align: center;
+  width: 30%;
+  margin-top: 7px;
+
+}
+
+svg {
+  width: auto;
+  height: auto;
+  fill: white;
 }
 
 .newsweek-logo {
@@ -470,4 +505,5 @@ footer i {
 
 .footer {
   background-color: #fff;
+  margin-top: 3px;
 }
