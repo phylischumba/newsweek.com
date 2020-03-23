@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Phylis05/newsweek.com/98a41336963702117bc160a253e3ae808e77e273/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Phylis05/newsweek.com/44458f27aa094d0ad6048a964a121759be097bba/index.html)
 
 ## Getting Started
 
