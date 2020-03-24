@@ -1,0 +1,510 @@
+@media (max-width: 1105px) {
+  .large-screen-nav {
+    display: none;
+  }
+
+  .hidden-nav {
+    display: inherit !important;
+  }
+
+  .second-nav {
+    display: none;
+  }
+
+  main {
+    margin-top: 30px !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .centerd-insight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sponsored-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sponsored-background img {
+    width: 400px !important;
+  }
+
+  .best-hospitals {
+    width: 400px;
+  }
+
+  .education {
+    font-size: 12px;
+    width: 400px;
+    height: auto;
+    text-align: center;
+  }
+
+  .top-footer {
+    flex-direction: column;
+  }
+
+  .footer1 {
+    flex-direction: column;
+  }
+
+  .footer1 p {
+    align-self: flex-start !important;
+    margin-left: 20px;
+  }
+
+  .footer-icons {
+    margin-left: 20px;
+  }
+
+  .edition a {
+    border-right: none !important;
+    margin-bottom: 5px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  div.image-height span {
+    font-size: 13px;
+    margin-left: 4px;
+  }
+
+  .united-states-div a {
+    font-size: 13px;
+  }
+
+  div.image-height a {
+    font-size: 14px;
+  }
+
+  .united-states-div img {
+    height: 80px;
+  }
+
+  div.star-wars a {
+    font-size: 15px;
+  }
+
+  .slideshows {
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 767px) {
+  div.indepth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .subscribe-buttons {
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .subscribe-images2 {
+    top: 20px;
+    right: -300px;
+  }
+
+  .signup {
+    width: 100%;
+    flex-direction: column;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-right: 20%;
+  }
+
+  div.signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .signup-image {
+    width: auto !important;
+    height: auto;
+  }
+
+  div.start {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 5px !important;
+  }
+
+  .united-states-div {
+    margin-top: 30px;
+  }
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #f4f5f6;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+main,
+footer {
+  background-color: #fff;
+  padding-top: 10px;
+  margin-top: 2px;
+}
+
+.large-screen-nav {
+  background-color: #ff0500;
+}
+
+.center-nav {
+  justify-content: center;
+  text-align: center;
+  width: 30%;
+  margin-top: 7px;
+}
+
+svg {
+  width: auto;
+  height: auto;
+  fill: white;
+}
+
+.newsweek-logo {
+  width: 30%;
+}
+
+.hidden-nav {
+  display: none;
+  background-color: #ff0500;
+  overflow: hidden;
+}
+
+footer i {
+  font-size: 25px;
+}
+
+.left-nav {
+  width: 50%;
+}
+
+.right-nav i {
+  font-size: 25px;
+}
+
+.second-nav a {
+  color: black;
+  font-weight: bold;
+}
+
+.image-span1 {
+  position: relative;
+  bottom: 40px;
+  width: 42px;
+}
+
+.image-span {
+  position: relative;
+  bottom: 2.5rem;
+  width: 100px;
+}
+
+.section-heading {
+  display: none;
+}
+
+.top p,
+.featured p {
+  font-size: 14px;
+  line-height: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.featured-text {
+  line-height: 1.2em;
+}
+
+.featured a,
+.slideshows a {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.opinion img {
+  width: 60px;
+  height: 60px;
+}
+
+.opinion p,
+.opinion span {
+  line-height: 1.2em;
+  font-size: 16px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.small-logo {
+  width: 30px;
+}
+
+.editors-button {
+  background-color: #ff0500;
+}
+
+.slideshows span,
+.sub-headings {
+  color: #f72210;
+}
+
+.olympics span {
+  font-weight: 500;
+  font-family: serif;
+}
+
+.olympics p {
+  font-family: Helvetica, sans-serif;
+}
+
+.more-stories img {
+  height: 100px;
+  width: 100px;
+  margin-right: 10px;
+}
+
+.vs span {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-left: 16px;
+}
+
+.debate-div {
+  border-top: 4px solid #ff0500;
+}
+
+.debate {
+  padding-bottom: 32px;
+}
+
+.position-sticky {
+  top: 0;
+}
+
+.debate2 {
+  border-top: 3px solid blue;
+}
+
+.debate3 {
+  border-top: 4px double #e2e2e2;
+}
+
+.debate a {
+  line-height: 1em;
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.latest-news a {
+  line-height: 1.5em;
+  font-size: 14px;
+}
+
+.debate1-img {
+  width: 60px;
+  height: 70px;
+}
+
+.debate .image2 {
+  width: 60px;
+  float: right;
+  position: relative;
+  bottom: 15px;
+}
+
+.debate .bordertop {
+  border-top: solid 1px grey;
+  border-top-style: double;
+}
+
+.sponsored-background img {
+  height: auto;
+  width: auto;
+}
+
+.best-hospitals img {
+  height: auto;
+  width: auto;
+}
+
+.education a {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.newsletter-signup {
+  height: auto;
+}
+
+.signup-image {
+  width: 200px;
+  height: 300px;
+}
+
+.newsletter span {
+  font-size: 18px;
+  line-height: 1.2em;
+}
+
+.newsletter .text-white {
+  height: 30px;
+}
+
+.newsletter-span {
+  line-height: 3em;
+}
+
+.amplify {
+  width: 100%;
+  height: 230px;
+  background-image: url("https://d.newsweek.com/en/full/1568509/newsweek-amplify.png?w=500&h=333&f=98c0ebfc554597997a0de3bd6159812a");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.amplifier {
+  width: 100%;
+}
+
+.red-text {
+  color: red;
+  width: auto;
+  font-weight: bold;
+  position: relative;
+  bottom: 40px;
+}
+
+.all-features {
+  margin-right: 5px;
+  position: relative;
+  bottom: 50px;
+}
+
+.march-issue {
+  padding-bottom: 13px;
+}
+
+.united-states a {
+  margin-top: 30px;
+  color: black;
+  font-size: 20px;
+  line-height: 0;
+}
+
+.image-height {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.image-height a {
+  font-size: 18px;
+  line-height: 0;
+}
+
+.slideshows {
+  height: 430px;
+}
+
+.slideshows span {
+  bottom: 28px;
+}
+
+.slideshows a {
+  line-height: 0;
+  font-size: 18px;
+}
+
+.count-link {
+  width: 70px;
+  height: 52px;
+  display: block;
+  bottom: 52px;
+  font-size: 20px;
+  line-height: 58px;
+  text-indent: 5px;
+  text-align: center;
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+  color: #f72210;
+}
+
+.saga {
+  font-size: 20px;
+  position: relative;
+  bottom: 40px;
+}
+
+.top-story-image {
+  height: auto;
+}
+
+.argentina {
+  width: 95px;
+}
+
+.subscribe-buttons {
+  margin-top: 30px;
+  font-size: 15px;
+  margin-left: 70px;
+}
+
+.subscribe-images2 {
+  top: 20px;
+  left: 50px;
+}
+
+.access {
+  width: 40%;
+}
+
+.signup {
+  width: 100%;
+}
+
+.start {
+  margin-left: 10px;
+}
+
+.footer1 a {
+  font-size: 35px;
+}
+
+.footer1 p {
+  font-size: 12px;
+}
+
+.span-icon {
+  width: 50px;
+  height: 50px;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATYAAACjCAMAAAA3vsLfAAAAkFBMVEX4+PjtIyT////sAAD5///tHh/4+/vuQkP10dHsAQX4u7vtEBH/+vr84+P83+D3sbH72dr0kJDwW1zzg4T2zMztGRrtDQ/vV1f0s7PvUFH47+/0vb3wZWXuLzDynJz35ubwcnLtKCnzqan48vL1xcXzpaXwYWLze3vuOz31l5jvSkv0iInvQELuMzTzgIDxdnbmAlY3AAAEmklEQVR4nO3dbXuaMBiGYfICFlGraIJaq7XVdete+v//3XTaFiRhkAJuD/f1sYUPnAcIRk08DyGEEEIIIYQQQgghhBBCCCGEEPpnCwJZQ0Fw7eNosYOYN+6vp6uk94mS1XTdH3sHu2sfTysFcrNPtAi1Uv6nUkqHQif7TQfgArmLhVastpQW8Y46nJz1RI1mZznRm8lrH1mDBd6D8OtGO+aLB4/sCSdH26gJtGPRdkT0hJOzZk61U76geaHKnWgO7RhJN3nTsNrB7YacW7BUDV6hp3y1pHZfkEntzx35VELsdJOPjV+ix8QjLbdlY08e2aLltY+0zuREt8OmJ6ROt5ZOtsPpdu0jrTE5D9tiC+d0Tje5aPzh4y1/QYdt2cpt9JQgc1MI7lq7Rg9X6R2VR145ae2OcLgnkLmXyi8tvEN4S63IsN2b7gh+ZEiX3vJcbnv/ngpbYLojRBM+yDc0XM5qatryFI9zboLIa1uwsbCZMgzKRVPjlqfi3PUviAyDBOMKbHyS27gq27iLbHxxCdFVNuO4rpVtcDmeWZXtppNs/HJzsJVi4+vs9mArx8ZXmccQsJVkG2zTL29gK8nGR+k9wFaWjd+mdgFbaTb++vHhA9hSqefxzbGBxePr+8ubejBtufzzt3F+3Jg2G1PiT0MLW+qN7HnLceb/89Mf8yMmxNnOB2lj43cXe12w9W0jxh1n49+zMGArx8ZfMi/3YCvJtsx8lA+2kmx8lt4RbGXZ+LfUnmArzZZ+mgVbebYBe38wA1t5Nv4xoA62Cmx8/7Yz2KqwvY9Zgq0SGz9/pg+2amxDATYHNj4XYHNg488abA5svKfA5sC20WArYpsvzW47AbYCtseF5XybXA6Kgy3VrfhmcVuArYAtFDMz2xPYitj8yPbylvUEW4aNqRfLZZoNbFk2Fn4Hm1edjYk7sDmwMbEBmwOb/xVsDmxMv4LNgY2JW7A5sDExApsDm7+1ffENbAVsLPoCNgc2JtZgc2A7HD/YHNj86Als1dmYso1Zgq2IjYUFX8IHm5Wt6E092OxsTFvf1IOtgE39AJsDG9PPYHNgY2IOtnTGHw895n8SZPncvqNsb9OnXGic/tZLuflbsGXY7PUyv15egc2BjYk92BzYjG/qwfZXNt/Pj1mC7a9sTCUdZKs2x5GJjYnc1nY2KnMc1cDGxK5zbFXmb7OxMX3xRSQ7G5H526yzBVZiU72ybETUzHNTVmVj+lcpNv8nlbkp5cowE2plNib6ZdgIzYRqmndX/RqObA1/GCfTFrOPXYZ7y1y+dObdNc/yfB4BMWaZgjy9iW0lATqzPLc7p/jTtY+2tlqcwV7FVK5RrJfgHFbncAlrwbj11NIc9orODeEY1rlyS+bmvG4gcquqYQ0/x7BipFvNrupKeF1XrIbrlBzeN7f28v2QqNpxpe/Xplb6fqa70rd3vDE0s648xZtBukDuYqFrlFNaxDtJ+VQ7FcjNPtYi1Er5n0opHQod7zcdQDsWSOmN+uvpKnnpOfeSrKbr/siTHUE7FRzsPl/QJTKEEEIIIYQQQgghhBBCCCGEEEL/Xb8BmIR+xlRQMXEAAAAASUVORK5CYII=");
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #f72210;
+  background-size: cover;
+}
+
+.edition a,
+.edition span {
+  font-size: 14px;
+}
+
+.footer {
+  background-color: #fff;
+  margin-top: 3px;
+}
